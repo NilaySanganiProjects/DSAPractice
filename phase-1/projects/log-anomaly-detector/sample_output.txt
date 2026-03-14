@@ -1,0 +1,8 @@
+# Expected output for error_spike.log (with threshold=10, window=60s):
+ALERT: Error spike detected — 11 errors in last 60 seconds
+
+# Expected output for ip_abuse.log (if the full 150-line version is used with threshold=100):
+ALERT: Suspicious IP 192.168.99.99 — 143 requests in last 60 seconds
+
+# Expected output for normal_traffic.log:
+(no alerts)
