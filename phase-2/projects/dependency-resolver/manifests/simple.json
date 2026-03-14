@@ -1,0 +1,9 @@
+{
+  "packages": {
+    "app": ["react", "lodash"],
+    "react": ["react-dom"],
+    "react-dom": ["scheduler"],
+    "scheduler": [],
+    "lodash": []
+  }
+}

@@ -1,0 +1,5 @@
+127.0.0.1 - alice [14/Mar/2024:10:00:01 +0000] "GET /api/users HTTP/1.1" 200 1024
+127.0.0.2 - bob [14/Mar/2024:10:00:02 +0000] "POST /api/posts HTTP/1.1" 201 512
+127.0.0.3 - carol [14/Mar/2024:10:00:03 +0000] "GET /health HTTP/1.1" 200 64
+127.0.0.4 - dave [14/Mar/2024:10:00:04 +0000] "GET /api/comments HTTP/1.1" 200 2048
+127.0.0.5 - eve [14/Mar/2024:10:00:05 +0000] "DELETE /api/posts/1 HTTP/1.1" 204 0
